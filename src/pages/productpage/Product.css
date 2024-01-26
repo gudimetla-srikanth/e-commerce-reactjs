@@ -9,7 +9,7 @@
     width: 80%;
     height: 80vh;
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(249, 244, 238);
     flex-wrap: wrap;
 }
 

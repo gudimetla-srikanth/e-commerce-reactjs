@@ -7,10 +7,9 @@ export default function CartItem({ data }) {
     const remove = () => {
         dispatch(filterCart(data))
     }
-    console.log("data image", data.image)
     return (
         <div className="cart_item">
-            <img src={require(`../../sliderImages/slider3.jpg`)} alt="" />
+            <img src={data.image} alt="" />
             <div className="cart_image_name">{data.model}</div>
             <div className="cart_item_qt">Qt : {data.qt}</div>
             <div className="cart_item_price">Price : ${data.newPrice}</div>

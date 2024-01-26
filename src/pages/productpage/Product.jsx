@@ -34,7 +34,7 @@ export default function Product() {
         <div className="product">
             <div className="product_wrapper">
                 <div className="products_left">
-                    <img src={require(`../../sliderImages/slider2.jpg`)} alt="" />
+                    <img src={state.image} alt="" />
                 </div>
                 <div className="products_right">
                     <div className="products_item">

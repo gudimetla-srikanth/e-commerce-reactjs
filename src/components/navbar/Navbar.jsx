@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import LocalMallSharpIcon from '@mui/icons-material/LocalMallSharp';
 import { Link } from 'react-router-dom';
-import { UseSelector, useSelector } from 'react-redux';
 import Cart from '../cart/Cart';
+import { useSelector } from 'react-redux';
 export default function Navbar() {
     const [openCart, setOpenCart] = useState(false)
     const cartQt = useSelector(state => state.data.cartQt)
@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="navbar_wrapper">
                 <div className="navbar_left">
                     <div className="nav_item">
-                        <Link className='link' to="/"><h1>gstore</h1></Link>
+                        <Link className='link' to="/"><h1>mycart</h1></Link>
                     </div>
                 </div>
                 <div className="navbar_right">

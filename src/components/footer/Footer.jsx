@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <div className="footer_bottom">
                 <div className="footer_item">
-                    <h4>@Copyright.<span className='shop_name'>gstore</span></h4>
+                    <h4>@Copyright.<span className='shop_name'>Mycart</span></h4>
                 </div>
             </div>
         </div>

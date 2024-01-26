@@ -1,6 +1,6 @@
 .footer {
     padding: 40px 40px;
-    background-color: aliceblue;
+    background-color: rgb(249, 244, 238);
 }
 
 .footer_top {
@@ -23,12 +23,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.shop_name {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-size: 30px;
-    font-style: normal;
 }

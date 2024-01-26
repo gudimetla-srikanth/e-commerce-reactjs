@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(249, 244, 238);
 }
 
 .navbar_wrapper {
@@ -15,12 +15,7 @@
 }
 
 .navbar_left .nav_item h1 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    font-weight: 50px;
-
+    font-weight: 700;
 }
 
 .navbar_right {

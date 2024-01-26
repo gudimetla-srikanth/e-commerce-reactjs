@@ -9,7 +9,7 @@ export default function Cart({ open, set }) {
   return (
     <div className="cart">
       <CloseIcon className='cart_close' onClick={() => set(false)} />
-      <div className="cart_items_header"><h3>Your Cart items</h3></div>
+      <div className="cart_items_header"><h3>your cart items are</h3></div>
       <div className="cart_items">
         {cartdata?.map((data) => {
           return <CartItem data={data} key={data.id} />

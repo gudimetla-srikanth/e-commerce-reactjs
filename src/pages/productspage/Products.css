@@ -14,14 +14,13 @@
     padding: 20px 5px;
     flex: 0.3;
     height: max-content;
-    background-color: azure;
     border-radius: 10px;
     position: sticky;
-    top: 20px;
+    top: 30px;
 }
 
 .product_left_item {
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 .product_left_item button {
