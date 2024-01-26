@@ -1,0 +1,26 @@
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider_tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    gap: 20px;
+    width: 80%;
+}
+
+.sIcon {
+    cursor: pointer;
+}

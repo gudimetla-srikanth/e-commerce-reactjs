@@ -1,0 +1,44 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 179);
+    color: white;
+}
+
+.contact_wrapper {
+    margin: 30px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact_tag {
+    font-weight: 700;
+}
+
+.contact_item input {
+    padding: 10px 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_item button {
+    padding: 10px 10px;
+    font-weight: bolder;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_icons {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,33 @@
+.cart_item {
+    width: 40vw;
+    height: 10vh;
+    margin: 10px 40px;
+    display: flex;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.cart_item img,
+.cart_image_name,
+.cart_item_qt,
+.cart_item_price,
+.cart_item_remove {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cart_item_remove {
+    justify-content: center;
+    font-weight: bolder;
+    color: red;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.cart_item img {
+    height: 70%;
+    width: 70%;
+}
