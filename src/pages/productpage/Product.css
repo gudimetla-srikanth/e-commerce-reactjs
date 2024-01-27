@@ -7,10 +7,9 @@
 .product_wrapper {
     margin: 30px 30px;
     width: 80%;
-    height: 80vh;
+    height: max-content;
     display: flex;
     background-color: rgb(249, 244, 238);
-    flex-wrap: wrap;
 }
 
 .products_left {
@@ -43,6 +42,7 @@
 .product_cart_inc span {
     padding: 20px 30px;
     background-color: beige;
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +67,7 @@
     color: black;
     width: max-content;
     cursor: pointer;
+    border: 1px solid gray;
 }
 
 .products_title_name {
@@ -76,4 +77,10 @@
 
 .fav {
     color: red;
+}
+
+@media screen and (min-width:380px) and (max-width: 600px) {
+    .product_wrapper {
+        flex-direction: column !important;
+    }
 }

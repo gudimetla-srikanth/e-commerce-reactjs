@@ -38,6 +38,7 @@
     margin-top: 10px;
     display: flex;
     gap: 20px;
+    padding: 3px 10px;
     justify-content: left;
     align-items: center;
     color: gray
@@ -53,6 +54,7 @@
 
 .card_type {
     font-weight: bolder;
+    padding: 5px 10px;
 }
 
 .pr {

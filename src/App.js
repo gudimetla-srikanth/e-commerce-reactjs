@@ -10,6 +10,7 @@ import Products from './pages/productspage/Products';
 import Product from './pages/productpage/Product';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 
 const Layout = () => {
@@ -17,6 +18,7 @@ const Layout = () => {
         <>
             <Navbar />
             <Outlet />
+            <Contact />
             <Footer />
         </>
     );

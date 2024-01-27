@@ -97,3 +97,9 @@
     color: rgb(230, 71, 14);
     font-weight: 900;
 }
+
+@media screen and (min-width:380px) and (max-width: 600px) {
+    .category {
+        flex-direction: column !important;
+    }
+}

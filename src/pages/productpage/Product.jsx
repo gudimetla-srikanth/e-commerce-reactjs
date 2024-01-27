@@ -53,7 +53,7 @@ export default function Product() {
                     </div>
                     <div className="products_item fav_cart">
                         <div className="products_title product_cart" onClick={toCart}><h3>add to cart</h3></div>
-                        <div className={`products_title_name ${fav && "fav"}`}><span onClick={() => setFav(prev => !prev)}><FavoriteIcon /></span></div>
+                        <div className={`products_title_name ${fav && "fav"}`}><span onClick={() => setFav(prev => !prev)}><FavoriteIcon sx={{ fontSize: "40px" }} /></span></div>
                     </div>
                 </div>
             </div>
