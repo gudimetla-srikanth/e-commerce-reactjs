@@ -42,3 +42,34 @@
     display: flex;
     gap: 20px;
 }
+
+@media screen and (min-width:0px) and (max-width:600px) {
+
+    .contact_tag,
+    .contact_icons,
+    .contact_item {
+        margin: 10px 0px;
+    }
+
+    .contact_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .contact_item input {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .contact_item button {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .contact_wrapper {
+        justify-content: center;
+    }
+}

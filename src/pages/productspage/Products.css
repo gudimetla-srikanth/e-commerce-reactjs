@@ -6,8 +6,9 @@
 
 .products_wrapper {
     width: 100%;
-    margin: 30px 50px;
+    margin: 20px 50px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .product_left {
@@ -46,4 +47,33 @@
 .products_cards {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+    .product_left {
+        position: relative;
+    }
+
+    .product_left_item {
+        margin: 20px 10px;
+    }
+
+
+    .product_item {
+        margin: 10px 0px;
+    }
+
+    .res {
+        position: relative;
+    }
+
+    .res1 {
+        display: none;
+    }
+
+    .res2 {
+        position: absolute;
+        top: 20px;
+    }
+
 }

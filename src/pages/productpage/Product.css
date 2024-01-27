@@ -79,8 +79,20 @@
     color: red;
 }
 
-@media screen and (min-width:380px) and (max-width: 600px) {
+@media screen and (min-width:0px) and (max-width: 600px) {
     .product_wrapper {
         flex-direction: column !important;
+    }
+
+    .product_cart_inc span {
+        padding: 20px 20px;
+        background-color: beige;
+        border: 1px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bolder;
     }
 }

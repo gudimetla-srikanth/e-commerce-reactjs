@@ -6,6 +6,7 @@
 .footer_top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer_top_item {
@@ -23,4 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width:200px) and (max-width:600px) {
+    .footer_top_item {
+        margin: 20px 0px;
+    }
 }

@@ -98,8 +98,11 @@
     font-weight: 900;
 }
 
-@media screen and (min-width:380px) and (max-width: 600px) {
+@media screen and (min-width:0px) and (max-width: 600px) {
     .category {
         flex-direction: column !important;
+        margin: 10px 20px;
     }
+
+
 }

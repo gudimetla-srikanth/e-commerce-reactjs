@@ -27,10 +27,10 @@ export default function Products() {
                 <div className="product_left">
                     <div className="product_left_item">
                         <h3>between range</h3>
-                        <div className="product_item">
-                            <span>0</span>
+                        <div className="product_item res">
+                            <span className='res1'>0</span>
                             <input type="range" min={0} max={100000} onChange={(e) => setRange(e.target.value)} />
-                            <span>{range}</span>
+                            <span className='res2'>{range}</span>
                         </div>
                     </div>
                     <div className="product_left_item">

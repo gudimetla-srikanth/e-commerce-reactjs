@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .navbar_left .nav_item h1 {
@@ -56,7 +56,7 @@
     display: none;
 }
 
-@media screen and (min-width:380px) and (max-width: 600px) {
+@media screen and (min-width:0px) and (max-width: 600px) {
     .navbar_right {
         display: none;
     }
@@ -72,7 +72,7 @@
         right: 0px;
         background-color: rgb(249, 244, 238);
         height: 100vh;
-        width: 50vw;
+        width: 70vw;
         z-index: 22;
         display: flex;
         justify-content: center;
@@ -83,13 +83,13 @@
 
     .res_item {
         background-color: rgb(222, 241, 244);
-        width: 20vw;
+        width: 32vw;
         padding: 5px 10px;
         cursor: pointer;
         display: flex;
         justify-content: left;
         align-items: center;
-        font-weight: 900;
+        font-weight: 700;
     }
 
     .cartQT_val {

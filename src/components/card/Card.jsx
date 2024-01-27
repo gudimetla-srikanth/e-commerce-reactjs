@@ -6,12 +6,11 @@ export default function Card({ item, pr }) {
   const toPage = () => {
     navigate(`/product/${item.type}`, { state: item })
   }
-  console.log("card", item)
   return (
     <div className="card" onClick={toPage}>
       <div className="card_image">
-        <img src={item.image} alt="" className={`card_img_second  ${pr && 'pr1'}`} />
-        <img src={item.imageSecond} alt="" className={`card_img_main ${pr && 'pr'}`} />
+        <img src={item.image} alt="" className={`card_img_second res ${pr && 'pr1'}`} />
+        <img src={item.imageSecond} alt="" className={`card_img_main res ${pr && 'pr'}`} />
       </div>
       <div className={`card_is_new ${item.isNew && "is_new"}`}>{item.isNew && <span>New Season</span>}</div>
       <div className="card_type">{item.model}</div>
